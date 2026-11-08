@@ -1,0 +1,5 @@
+.venv/
+.idea/
+__pycache__/
+
+online_retail_clean.csv
