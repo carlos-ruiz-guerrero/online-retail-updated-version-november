@@ -221,6 +221,24 @@ Potential future enhancements include:
 
 ---
 
+## Database 
+
+The project includes a SQLite-based analytical layer designed to separate transactional storage from analytical consumption.
+
+Online Retail Dataset
+        ↓
+Data Cleaning
+        ↓
+SQLite Database
+        ↓
+transactions
+        ↓
+customer_rfm
+        ↓
+customer_segments
+        ↓
+Streamlit Dashboard
+
 ## Author
 
 Carlos Ruiz Guerrero
