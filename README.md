@@ -24,7 +24,7 @@ The project demonstrates a complete analytics workflow including:
 
 Add deployment URL here after publishing:
 
-https://your-dashboard.streamlit.app
+https://online-retail-rfm-segmentation.streamlit.app/
 
 ---
 
