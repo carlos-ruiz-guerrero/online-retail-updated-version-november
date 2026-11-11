@@ -237,7 +237,30 @@ customer_rfm
         ↓
 customer_segments
         ↓
-Streamlit Dashboard
+Streamlit Dashboard 
+
+## Data Architecture Evolution
+
+The project evolved through multiple stages:
+
+```text
+Raw Dataset
+    ↓
+Data Cleaning
+    ↓
+Customer-Level RFM Dataset
+    ↓
+SQLite Analytical Layer
+    ↓
+Customer Segmentation Tables
+    ↓
+Interactive Streamlit Dashboard
+```
+
+The final architecture demonstrates both lightweight deployment
+through customer-level datasets and database-backed analytics
+using SQLite.
+
 
 ## Author
 
